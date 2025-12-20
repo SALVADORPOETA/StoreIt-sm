@@ -169,7 +169,7 @@ Each file type has a **dynamic thumbnail icon** for better visualization and use
 
 ## 🌐 Links
 
-* **GitHub:** [https://github.com/SALVADORPOETA/store-it-sm](https://github.com/SALVADORPOETA/store-it-sm)
+* **GitHub:** [https://github.com/SALVADORPOETA/store-it-sm](https://github.com/SALVADORPOETA/StoreIt-sm)
 * **LinkedIn:** [https://www.linkedin.com/in/salvador-martinez-sm/](https://www.linkedin.com/in/salvador-martinez-sm/)
 
 ---
