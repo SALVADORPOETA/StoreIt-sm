@@ -116,21 +116,21 @@ Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
 ```
 store-it-sm/
-├─ app/                        # Next.js app directory
-│  ├─ admin/                   # Admin pages
-│  ├─ components/              # Reusable UI components
-│  ├─ context/                 # React context providers
-│  ├─ signin/                  # Sign-in pages
-│  ├─ signupemail/             # Sign-up pages
-│  ├─ signinemail/             # Email OTP pages
-│  └─ ...
-├─ lib/                        # Utilities & Appwrite actions
-├─ types/                      # TypeScript type definitions
-├─ public/                     # Public assets (images, icons)
-│  └─ assets/
-├─ package.json
-├─ tailwind.config.js
-└─ tsconfig.json
+ ├─ app/                       # Next.js app directory
+ │  ├─ (auth)/                 # Authentication-related pages
+ │  │  ├─ sign-in/
+ │  │  │  └─ page.tsx          # Sign-in page
+ │  │  └─ sign-up/
+ │  │     └─ page.tsx          # Sign-up page
+ │  └─ (root)/                 # Root layout and pages
+ │     └─ layout.tsx           # Main app layout
+ ├─ lib/                       # Utility functions and Appwrite actions
+ │  ├─ actions/                # Actions for interacting with Appwrite
+ │  │  ├─ file.actions.ts      # File-related actions (upload, delete, fetch)
+ │  │  └─ user.actions.ts      # User-related actions (auth, OTP, session)
+ │  ├─ appwrite/               # Appwrite configuration
+ │  │  └─ config.ts            # Appwrite environment and config
+ │  └─ utils.ts                # Helper functions (date, file size, thumbnails, etc.)
 ```
 
 ---
