@@ -1,5 +1,4 @@
 # StoreIt
----
 
 🚀 Introduction
 
@@ -178,5 +177,3 @@ Each file type has a **dynamic thumbnail icon** for better visualization and use
 ## ⚖️ License
 
 This is a personal portfolio project by **Salvador Martínez**. No commercial use intended.
-
----
