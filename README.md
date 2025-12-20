@@ -67,8 +67,8 @@ Key highlights:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/SALVADORPOETA/store-it-sm.git
-cd store-it-sm
+git clone https://github.com/SALVADORPOETA/StoreIt-sm.git
+cd StoreIt-sm
 ```
 
 ### 2. Install dependencies
@@ -169,7 +169,7 @@ Each file type has a **dynamic thumbnail icon** for better visualization and use
 
 ## 🌐 Links
 
-* **GitHub:** [https://github.com/SALVADORPOETA/store-it-sm](https://github.com/SALVADORPOETA/StoreIt-sm)
+* **GitHub:** [https://github.com/SALVADORPOETA/StoreIt-sm](https://github.com/SALVADORPOETA/StoreIt-sm)
 * **LinkedIn:** [https://www.linkedin.com/in/salvador-martinez-sm/](https://www.linkedin.com/in/salvador-martinez-sm/)
 
 ---
