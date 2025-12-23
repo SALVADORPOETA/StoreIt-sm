@@ -9,14 +9,23 @@ import { Thumbnail } from '@/components/Thumbnail'
 import { Separator } from '@/components/ui/separator'
 import { getFiles, getTotalSpaceUsed } from '@/lib/actions/file.actions'
 import { convertFileSize, getUsageSummary } from '@/lib/utils'
+import { getCurrentUser } from '@/lib/actions/user.actions'
+import { redirect } from 'next/navigation'
 
 const Dashboard = async () => {
+  const currentUser = await getCurrentUser()
+  if (!currentUser) {
+    redirect('/sign-in')
+  }
   // Parallel requests
   const [files, totalSpace] = await Promise.all([
     getFiles({ types: [], limit: 10 }),
     getTotalSpaceUsed(),
   ])
 
+  if (!totalSpace) {
+    redirect('/sign-in')
+  }
   // Get usage summary
   const usageSummary = getUsageSummary(totalSpace)
 

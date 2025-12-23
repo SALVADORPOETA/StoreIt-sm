@@ -96,7 +96,9 @@ export const getFiles = async ({
 
   try {
     const currentUser = await getCurrentUser()
-    if (!currentUser) throw new Error('User not found')
+    if (!currentUser) {
+      return null
+    }
 
     const queries = createQueries(currentUser, types, searchText, sort, limit)
 
@@ -106,7 +108,7 @@ export const getFiles = async ({
       queries
     )
 
-    console.log({ files })
+    // console.log({ files })
 
     return parseStringify(files)
   } catch (error) {
@@ -187,9 +189,15 @@ export const deleteFile = async ({
 
 export async function getTotalSpaceUsed() {
   try {
-    const { databases } = await createSessionClient()
+    const sessionClient = await createSessionClient()
+    if (!sessionClient) {
+      return null
+    }
+    const databases = sessionClient.databases
     const currentUser = await getCurrentUser()
-    if (!currentUser) throw new Error('User is not authenticated.')
+    if (!currentUser) {
+      return null
+    }
 
     const files = await databases.listDocuments(
       appwriteConfig.databaseId,
@@ -222,5 +230,6 @@ export async function getTotalSpaceUsed() {
     return parseStringify(totalSpace)
   } catch (error) {
     handleError(error, 'Error calculating total space used.')
+    return null
   }
 }
