@@ -17,10 +17,13 @@ const ToastViewport = React.forwardRef<
     ref={ref}
     className={cn(
       'fixed z-[100] flex flex-col p-4',
-      // Móvil: Centrado total arriba
-      'top-0 left-1/2 -translate-x-1/2 w-full max-w-[90vw] items-center',
-      // Desktop (md): Esquina inferior derecha (estilo Shadcn estándar)
+
+      // 📱 Mobile: centrado horizontal real
+      'top-4 left-1/2 -translate-x-1/2 w-[90vw] max-w-sm items-center',
+
+      // 🖥️ Desktop (md+): esquina inferior derecha
       'md:top-auto md:bottom-0 md:right-0 md:left-auto md:translate-x-0 md:max-w-[420px] md:items-end',
+
       className
     )}
     {...props}
