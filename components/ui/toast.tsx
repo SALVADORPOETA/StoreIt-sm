@@ -16,11 +16,11 @@ const ToastViewport = React.forwardRef<
   <ToastPrimitives.Viewport
     ref={ref}
     className={cn(
-      'fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]',
-      // Centrado para pantallas pequeñas (sm y menores)
-      'left-1/2 -translate-x-1/2 items-center justify-center',
-      // Alineación para pantallas grandes (opcional, si quieres que en PC vuelva a la derecha)
-      'md:left-auto md:translate-x-0 md:items-end',
+      'fixed z-[100] flex flex-col p-4',
+      // Móvil: Centrado total arriba
+      'top-0 left-1/2 -translate-x-1/2 w-full max-w-[90vw] items-center',
+      // Desktop (md): Esquina inferior derecha (estilo Shadcn estándar)
+      'md:top-auto md:bottom-0 md:right-0 md:left-auto md:translate-x-0 md:max-w-[420px] md:items-end',
       className
     )}
     {...props}
