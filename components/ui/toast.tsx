@@ -21,7 +21,7 @@ const ToastViewport = React.forwardRef<
   top-4 left-1/2 -translate-x-1/2
   w-[calc(100%-2rem)]
   flex flex-col gap-2
-  sm:top-auto sm:bottom-0 sm:right-0 sm:left-auto sm:translate-x-0 sm:w-auto sm:items-end
+  bottom-0 right-0 items-end
   md:max-w-[420px]
   `,
       className
