@@ -19,7 +19,7 @@ const ToastViewport = React.forwardRef<
       'fixed z-[100] flex flex-col p-0 md:p-4',
 
       // 📱 Mobile: centrado horizontal real
-      'top-4 right-4 w-[90vw] max-w-sm items-end',
+      'top-4 right-0 w-[90vw] max-w-sm items-end',
 
       // 🖥️ Desktop (md+): esquina inferior derecha
       'md:top-auto md:bottom-0 md:right-0 md:left-auto md:translate-x-0 md:max-w-[420px] md:items-end',
