@@ -20,7 +20,7 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
         <Header userId={currentUser.$id} accountId={currentUser.accountId} />
         <div className="main-content">{children}</div>
       </section>
-      <Toaster />
+      {/* <Toaster /> */}
     </main>
   )
 }
