@@ -21,8 +21,10 @@ const Card = ({ file }: { file: Models.Document }) => {
           <p className="body-1">{convertFileSize(file.size)}</p>
         </div>
       </div>
-      <div className="file-card-details">
-        <p className="subtitle-2 line-clamp-1">{file.name}</p>
+      <div className="file-card-details min-w-0">
+        <p className="subtitle-2 line-clamp-2 sm:line-clamp-1 break-all">
+          {file.name}
+        </p>
         <FormattedDateTime
           date={file.$createdAt}
           className="body-2 text-light-100"
