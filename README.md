@@ -17,9 +17,11 @@ Key highlights:
 
 ## 📖 Pages
 
-### Access Page
+### Access Pages
 
 <img width="769" height="631" alt="storeit1" src="https://github.com/user-attachments/assets/3330664a-5873-45b8-bcd5-514d8c555c88" />
+
+<img width="775" height="627" alt="storeit8" src="https://github.com/user-attachments/assets/3b1683a2-26de-4ed0-ba5c-fb730a30cf72" />
 
 ### OTP Validation
 
