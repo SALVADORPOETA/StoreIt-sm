@@ -13,7 +13,29 @@ Key highlights:
 * **Dynamic thumbnail previews** for images, videos, and documents
 * Fully **responsive UI** built with Radix UI components and TailwindCSS
 
+---
+
+## 📖 Pages
+
+### Access Page
+
+<img width="769" height="631" alt="storeit1" src="https://github.com/user-attachments/assets/3330664a-5873-45b8-bcd5-514d8c555c88" />
+
+### OTP Validation
+
+<img width="775" height="625" alt="storeit2" src="https://github.com/user-attachments/assets/60a04d4c-d121-4e1c-8e3a-24b9a87bb605" />
+
+### Dashboard
+
 <img width="779" height="601" alt="storeit" src="https://github.com/user-attachments/assets/c93d5e88-6460-490d-89ae-d947c8d21622" />
+
+### Files
+
+<img width="773" height="625" alt="storeit3" src="https://github.com/user-attachments/assets/3c6ed0d2-93ea-452d-b298-92f789711756" />
+
+<img width="771" height="627" alt="storeit4" src="https://github.com/user-attachments/assets/da1bdbbc-3532-449c-8ca2-b87a4b265c5c" />
+
+<img width="771" height="627" alt="storeit5" src="https://github.com/user-attachments/assets/e438c604-d5f7-4bbb-91ab-0d4490326c00" />
 
 ---
 
