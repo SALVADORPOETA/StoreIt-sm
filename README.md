@@ -1,7 +1,5 @@
 # StoreIt
 
-🚀 Introduction
-
 Store-It SM is a modern **file storage and management web application** built with **Next.js**, **React**, **TailwindCSS**, and **Appwrite**. This project was created following a **JavaScript Mastery YouTube tutorial**.
 
 Key highlights:
