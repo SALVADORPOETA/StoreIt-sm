@@ -34,6 +34,18 @@ Key highlights:
 
 <img width="779" height="601" alt="storeit" src="https://github.com/user-attachments/assets/c93d5e88-6460-490d-89ae-d947c8d21622" />
 
+### 🎨 Responsive Design
+
+* Modern UI built with **Radix UI** components
+* **TailwindCSS** styling with custom animations
+* Fully responsive across all device sizes
+
+<img width="773" height="625" alt="storeit3" src="https://github.com/user-attachments/assets/3c6ed0d2-93ea-452d-b298-92f789711756" />
+
+<img width="771" height="627" alt="storeit4" src="https://github.com/user-attachments/assets/da1bdbbc-3532-449c-8ca2-b87a4b265c5c" />
+
+<img width="771" height="627" alt="storeit5" src="https://github.com/user-attachments/assets/e438c604-d5f7-4bbb-91ab-0d4490326c00" />
+
 ### 📤 File Management
 
 * **Upload** files directly to Appwrite storage
@@ -41,11 +53,9 @@ Key highlights:
 * **Share files** with other users via email
 * Dynamic thumbnail previews for all file types
 
-<img width="773" height="625" alt="storeit3" src="https://github.com/user-attachments/assets/3c6ed0d2-93ea-452d-b298-92f789711756" />
+<img width="777" height="627" alt="storeit6" src="https://github.com/user-attachments/assets/129e6714-e526-4e65-a669-f6e07beb14e0" />
 
-<img width="771" height="627" alt="storeit4" src="https://github.com/user-attachments/assets/da1bdbbc-3532-449c-8ca2-b87a4b265c5c" />
-
-<img width="771" height="627" alt="storeit5" src="https://github.com/user-attachments/assets/e438c604-d5f7-4bbb-91ab-0d4490326c00" />
+<img width="775" height="627" alt="storeit7" src="https://github.com/user-attachments/assets/85735ef6-f429-48c4-86bd-9eb6a88870d5" />
 
 ---
 
@@ -56,13 +66,6 @@ Key highlights:
 * **Real-time file search** with thumbnail results
 * **Debounced search** for improved performance
 * **Sort files** by creation date, size, name, and more
-
-
-### 🎨 Responsive Design
-
-* Modern UI built with **Radix UI** components
-* **TailwindCSS** styling with custom animations
-* Fully responsive across all device sizes
 
 ---
 
