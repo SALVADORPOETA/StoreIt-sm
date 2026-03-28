@@ -13,7 +13,7 @@ Key highlights:
 
 ---
 
-## 📖 Pages
+## 🧩 Features
 
 ### 🔐 User Authentication
 
@@ -57,15 +57,13 @@ Key highlights:
 
 <img width="775" height="627" alt="storeit7" src="https://github.com/user-attachments/assets/85735ef6-f429-48c4-86bd-9eb6a88870d5" />
 
----
-
-## 🧩 Features
-
 ### 🔍 Search & Filter
 
 * **Real-time file search** with thumbnail results
 * **Debounced search** for improved performance
 * **Sort files** by creation date, size, name, and more
+
+<img width="765" height="631" alt="storeit9" src="https://github.com/user-attachments/assets/6fb9b0a6-ca64-4ca0-876f-638305f23d7f" />
 
 ---
 
