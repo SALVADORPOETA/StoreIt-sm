@@ -15,21 +15,31 @@ Key highlights:
 
 ## 📖 Pages
 
-### Access Pages
+### 🔐 User Authentication
+
+* Email OTP verification system via Appwrite
+* Secure session management and user authentication
 
 <img width="769" height="631" alt="storeit1" src="https://github.com/user-attachments/assets/3330664a-5873-45b8-bcd5-514d8c555c88" />
 
 <img width="775" height="627" alt="storeit8" src="https://github.com/user-attachments/assets/3b1683a2-26de-4ed0-ba5c-fb730a30cf72" />
 
-### OTP Validation
-
 <img width="775" height="625" alt="storeit2" src="https://github.com/user-attachments/assets/60a04d4c-d121-4e1c-8e3a-24b9a87bb605" />
 
-### Dashboard
+### 📊 Dashboard & Analytics
+
+* **File usage summary** with visual charts
+* **Storage statistics** organized by file type
+* **Recharts integration** for data visualization
 
 <img width="779" height="601" alt="storeit" src="https://github.com/user-attachments/assets/c93d5e88-6460-490d-89ae-d947c8d21622" />
 
-### Files
+### 📤 File Management
+
+* **Upload** files directly to Appwrite storage
+* **Rename** and **delete** files with confirmation dialogs
+* **Share files** with other users via email
+* Dynamic thumbnail previews for all file types
 
 <img width="773" height="625" alt="storeit3" src="https://github.com/user-attachments/assets/3c6ed0d2-93ea-452d-b298-92f789711756" />
 
@@ -41,29 +51,12 @@ Key highlights:
 
 ## 🧩 Features
 
-### 🔐 User Authentication
-
-* Email OTP verification system via Appwrite
-* Secure session management and user authentication
-
-### 📤 File Management
-
-* **Upload** files directly to Appwrite storage
-* **Rename** and **delete** files with confirmation dialogs
-* **Share files** with other users via email
-* Dynamic thumbnail previews for all file types
-
 ### 🔍 Search & Filter
 
 * **Real-time file search** with thumbnail results
 * **Debounced search** for improved performance
 * **Sort files** by creation date, size, name, and more
 
-### 📊 Dashboard & Analytics
-
-* **File usage summary** with visual charts
-* **Storage statistics** organized by file type
-* **Recharts integration** for data visualization
 
 ### 🎨 Responsive Design
 
